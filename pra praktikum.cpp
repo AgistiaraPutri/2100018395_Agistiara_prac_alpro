@@ -10,8 +10,8 @@ int main(){
 	cout<<"1.Penjumlahan \n2.Pengurangan \n3.Perkalian \n4.Pembagian\n";
 	cout<<endl;
 	cout<<"Masukkan bilangan pertama = "; cin>>bil1;
-	cout<<"bil 2 = "; cin>>bil2;
-	cout<<"Pilihan = "; cin>>pil;
+	cout<<"Masukkan bilangan kedua = "; cin>>bil2;
+	cout<<"Masukkan Pilihan = "; cin>>pil;
 	cout<<endl;
 	if(pil==1){
 		hasil = bil1 + bil2;
