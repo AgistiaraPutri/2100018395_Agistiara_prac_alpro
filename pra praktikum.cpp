@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int pil;
+	int pilih;
 	float bil1,bil2,hasil;
 	
 	cout<<"\tProgram Kalkulator Sederhana"<<endl;
@@ -11,21 +11,22 @@ int main(){
 	cout<<endl;
 	cout<<"Masukkan bilangan pertama = "; cin>>bil1;
 	cout<<"Masukkan bilangan kedua = "; cin>>bil2;
-	cout<<"Masukkan Pilihan = "; cin>>pil;
+	cout<<"Masukkan Pilihan = "; cin>>pilih;
 	cout<<endl;
-	if(pil==1){
+	
+	if(pilih==1){
 		hasil = bil1 + bil2;
 		cout<<bil1<<" + "<<bil2<<" = "<<hasil;
 	}
-	else if(pil==2){
+	else if(pilih==2){
 		hasil = bil1 - bil2;
 		cout<<bil1<<" - "<<bil2<<" = "<<hasil;
 	}
-	else if(pil==3){
+	else if(pilih==3){
 		hasil = bil1 * bil2;
 		cout<<bil1<<" x "<<bil2<<" = "<<hasil;
 	}
-	else if(pil==4){
+	else if(pilih==4){
 		hasil = bil1 / bil2;
 		cout<<bil1<<" : "<<bil2<<" = "<<hasil;
 	}
