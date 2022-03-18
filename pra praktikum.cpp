@@ -9,7 +9,7 @@ int main(){
 	cout<<"Pilihan : "<<endl;
 	cout<<"1.Penjumlahan \n2.Pengurangan \n3.Perkalian \n4.Pembagian\n";
 	cout<<endl;
-	cout<<"bil 1 = "; cin>>bil1;
+	cout<<"Masukkan bilangan pertama = "; cin>>bil1;
 	cout<<"bil 2 = "; cin>>bil2;
 	cout<<"Pilihan = "; cin>>pil;
 	cout<<endl;
